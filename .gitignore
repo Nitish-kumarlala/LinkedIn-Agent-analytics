@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local Databases & Pipelines
+data/*.db
+data/*.sqlite3
+data/.watermark
+data/dead_letter/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Power BI local backup files
+*.pbix.bak
